@@ -1,6 +1,3 @@
-// Tidak ada JavaScript khusus yang dibutuhkan
-// Jika kamu ingin efek scroll smooth, tambahkan ini:
-
 document.querySelectorAll('a.nav-link').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
     e.preventDefault();
