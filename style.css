@@ -519,4 +519,31 @@ header.navbar-container,
   .role {
     text-align: center;
   }
+  .navbar-container {
+    justify-content: flex-start;
+  }
+  .nav-list ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin-right: 70px;
+    padding: 0;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: black;
+    position: relative;
+    padding-bottom: 3px;
+  }
+  .section2 .title {
+    margin-left: 50px;
+  }
+  .section3 .title{
+    margin-left: 90px;
+  }
+  .section4 .title{
+    margin-left: 70px;
+  }
 }
